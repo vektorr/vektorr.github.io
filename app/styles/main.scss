@@ -12,7 +12,10 @@ $brand-danger:              #B71C1C;
 
 $enable-flex: true;
 
-$font-family-sans-serif: "Montserrat",-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif !default;
+$headings-font-family: "Montserrat";
+$headings-margin-bottom: 1.5rem;
+$headings-margin-top: 1rem;
+
 
 $octicons-font-path: "../bower_components/octicons/octicons";
 
@@ -61,16 +64,22 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
+  font-family: $headings-font-family;
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-  padding: 2rem 4rem 5rem 4rem;
+  padding: 2rem 4rem 3rem 4rem;
   .btn {
     font-size: 21px;
     padding: 14px 24px;
   }
   h1{
     font-size: 63px;
+    margin-bottom: 0.5rem;
   }
+}
+
+.mega-octicon{
+  font-size:inherit;
 }
 
 /* Supporting marketing content */
