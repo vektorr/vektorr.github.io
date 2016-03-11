@@ -359,7 +359,14 @@ module.exports = function (grunt) {
           src: 'bower_components/bootstrap-sass/assets/fonts/bootstrap/*',
           dest: '<%= config.dist %>'
         }]
-      }
+      },
+      main: {
+        expand: false,
+        expand: true,
+        cwd: 'dist',
+        src: '**',
+        dest: '.',
+      },
     },
 
     // Run some tasks in parallel to speed up build process
@@ -429,7 +436,8 @@ module.exports = function (grunt) {
     'copy:dist',
     'filerev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'copy:main'
   ]);
 
   grunt.registerTask('default', [
