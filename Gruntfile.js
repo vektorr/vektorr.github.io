@@ -358,6 +358,11 @@ module.exports = function (grunt) {
           cwd: '.',
           src: 'bower_components/bootstrap-sass/assets/fonts/bootstrap/*',
           dest: '<%= config.dist %>'
+        }, {
+          expand: true,
+          cwd: 'bower_components/montserrat-webfont/fonts',
+          src: '**',
+          dest: '<%= config.app %>/fonts/'
         }]
       },
       main: {
