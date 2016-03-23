@@ -7,13 +7,6 @@
     "octicons": "~3.3.0",
     "montserrat-webfont": "^1.0.3"
   },
-  "overrides": {
-    "octicons": {
-      "main": [
-        "octicons/octicons.scss"
-      ]
-    }
-  },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
