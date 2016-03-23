@@ -34,6 +34,21 @@ $octicons-font-path: "../bower_components/octicons/octicons";
 /* Space out content a bit */
 body {
   padding-bottom: 20px;
+  .main {
+    font-family: "Computer Modern Serif";
+    p{
+    text-align: justify;
+    font-size: 125%;
+    }
+  }
+  p.center {
+    margin-top:40px;
+    text-align: center;
+    a.download{
+    font-family: $headings-font-family;
+    font-size: 120%;
+    }
+  }
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -63,7 +78,6 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  font-family: $headings-font-family;
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
   padding: 2rem 4rem 3rem 4rem;
@@ -71,9 +85,19 @@ body {
     font-size: 21px;
     padding: 14px 24px;
   }
-  h1{
-    font-size: 63px;
+  h1,h2{
+    font-family: "Computer Modern Serif";
     margin-bottom: 0.5rem;
+  }
+  h1{
+    font-size: 100px;
+  }
+  h2{
+    font-size: 70px;
+  }
+  p.lead{
+    font-family: "Computer Modern Serif";
+    font-style: italic;
   }
 }
 
@@ -125,4 +149,51 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('fonts/cmunrm.eot');
+	src: url('fonts/cmunrm.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/cmunrm.woff') format('woff'),
+		 url('fonts/cmunrm.ttf') format('truetype'),
+		 url('fonts/cmunrm.svg#cmunrm') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('fonts/cmunbx.eot');
+	src: url('fonts/cmunbx.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/cmunbx.woff') format('woff'),
+		 url('fonts/cmunbx.ttf') format('truetype'),
+		 url('fonts/cmunbx.svg#cmunbx') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('fonts/cmunti.eot');
+	src: url('fonts/cmunti.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/cmunti.woff') format('woff'),
+		 url('fonts/cmunti.ttf') format('truetype'),
+		 url('fonts/cmunti.svg#cmunti') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('fonts/cmunbi.eot');
+	src: url('fonts/cmunbi.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/cmunbi.woff') format('woff'),
+		 url('fonts/cmunbi.ttf') format('truetype'),
+		 url('fonts/cmunbi.svg#cmunbi') format('svg');
+	font-weight: bold;
+	font-style: italic;
 }
