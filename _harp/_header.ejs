@@ -8,7 +8,7 @@
         <meta property="og:title"              content="<%= titel %>" />
         <meta property="og:description"        content="<%= abstract %>" />
         <meta property="og:image"              content="http://vektor.cc/img/fb_share_small.jpg" />
-    <% }if (current.path[0] == "teksten") { %>
+    <% }else if (current.path[0] == "teksten") { %>
         <title><%= titel %> | <%= auteur %></title>
         <meta property="og:url"                content="<%= url %>" />
         <meta property="og:type"               content="article" />
