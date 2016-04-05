@@ -8,6 +8,6 @@
     "type": "lezing",
     "tags": "transcript, vertaling",
     "abstract":"<%- partial('_badiou_abstract') %>",
-    "url": "http://localhost:3000/teksten/badiou"
+    "url": "http://vektor.cc/teksten/badiou"
   }
 }
