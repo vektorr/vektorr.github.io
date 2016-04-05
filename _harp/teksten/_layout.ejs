@@ -1,0 +1,35 @@
+    <%- partial("../_header") %>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1><%= auteur %></h1>
+            <h2><%= titel %></h2>
+            <h3><a href="<%= link %>"><span class="mega-octicon octicon-device-desktop"></span> <i><%= linkinfo %></i></a></h3>
+            <div class="abstract">
+               <%- partial("_"+current.path[1]+"_abstract") %>
+            </div>
+            <span ></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="math" class="container">
+      <div class="row">
+          <div class="main col-md-9">
+            <%- yield %>
+            <!-- <footer>
+              <%- partial("_footer") %>
+            </footer> -->
+            <% if (current.path[0] == "teksten") { %>
+                <%- partial("../_comments") %>
+            <% } %>
+          </div>
+          <div class="col-md-3 sidebar">
+            <nav id="toc" class="hidden-sm hidden-xs lead"></nav>
+          </div>
+
+        </div>
+    </div>
+
+<%- partial("../_footer") %>

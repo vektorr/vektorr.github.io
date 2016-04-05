@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <title>Vektor</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/toc.min.js"></script>
+  </head>
+  <body class="front">
+    <%- partial("_header") %>
+    <div class="jumbotron front">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="abstract">
+              <%- yield %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<%- partial("_footer") %>

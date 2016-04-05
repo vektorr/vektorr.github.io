@@ -1,0 +1,13 @@
+{
+  "badiou": {
+    "titel": "Hoe de massamoorden te denken",
+    "auteur": "Alain Badiou",
+    "link":"https://vimeo.com/147061687",
+    "linkinfo":"Herbekijk de volledige lezing (1u46)",
+    "datum": "13 november 2015",
+    "type": "lezing",
+    "tags": "transcript, vertaling",
+    "abstract":"<%- partial('_badiou_abstract') %>",
+    "url": "http://localhost:3000/teksten/badiou"
+  }
+}
