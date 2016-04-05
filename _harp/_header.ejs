@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <title>
-    <% if (current.path[0] == "opinie") { %>
-        <%= titel %> | <%= auteur %>
-    <% }if (current.path[0] == "teksten") { %>
-        <%= auteur %> | <%= titel %>
+
+    <% if (current.path[0] == "opinie"||current.path[0] == "teksten") { %>
+        <title><%= titel %> | <%= auteur %></title>
+        <meta property="og:url"                content="<%= url %>" />
+        <meta property="og:type"               content="article" />
+        <meta property="og:title"              content="<%= titel %> | <%= auteur %>" />
+        <meta property="og:description"        content="<%= abstract %>" />
+        <meta property="og:image"              content="http://vektor.cc/img/logoooo.svg" />
     <% }else { %>
-        Vektor
+        <title>Vektor</title>
     <% } %>
-    </title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../main.css">
     <script src="../js/jquery.min.js"></script>

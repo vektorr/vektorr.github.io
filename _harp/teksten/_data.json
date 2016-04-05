@@ -7,7 +7,7 @@
     "datum": "13 november 2015",
     "type": "lezing",
     "tags": "transcript, vertaling",
-    "abstract":"<%- partial('_badiou_abstract') %>",
+    "abstract":"'Hoe de massamoorden te denken?’ is onze vertaling van de lezing die door de filosoof en dramaturg Alain Badiou gegeven werd na de aanslagen in Parijs in november 2015. De schok van dit evenement - helaas niet de enige en laatste van zijn soort - laat een diep gat achter. In deze tekst legt Badiou stap voor stap de structuur van het hedendaagse mondiale kapitalisme bloot.",
     "url": "http://vektor.cc/teksten/badiou"
   }
 }
