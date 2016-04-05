@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
 
-    <% if (current.path[0] == "opinie"||current.path[0] == "teksten") { %>
+    <% if (current.path[0] == "opinie") { %>
+        <title><%= titel %> | <%= auteur %></title>
+        <meta property="og:url"                content="<%= url %>" />
+        <meta property="og:type"               content="article" />
+        <meta property="og:title"              content="<%= titel %>" />
+        <meta property="og:description"        content="<%= abstract %>" />
+        <meta property="og:image"              content="http://vektor.cc/img/fb_share.jpg" />
+    <% }if (current.path[0] == "teksten") { %>
         <title><%= titel %> | <%= auteur %></title>
         <meta property="og:url"                content="<%= url %>" />
         <meta property="og:type"               content="article" />
         <meta property="og:title"              content="<%= titel %> | <%= auteur %>" />
         <meta property="og:description"        content="<%= abstract %>" />
-        <meta property="og:image"              content="http://vektor.cc/img/logoooo.svg" />
+        <meta property="og:image"              content="http://vektor.cc/img/fb_share.jpg" />
     <% }else { %>
         <title>Vektor</title>
     <% } %>
