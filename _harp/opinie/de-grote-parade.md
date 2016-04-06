@@ -1,5 +1,9 @@
+
+
 Op dit moment is Frankrijk in de ban van een opstand. Een strijd die begon als vakbondsverzet tegen de inperking van de bescherming van werknemers, is een nationale strijd geworden door de verzameling van studenten, migranten, werknemers, sans-papiers, werklozen, armen, feministen, revolutionairen allerhanden, … onder de noemer ‘La convergence des luttes’.
 Ver van enkel de uiterst belangrijke eis tot terugtrekking van de te stemmen wet El Komhri, begint er een organisatie op poten te komen. Het onderliggende onbehagen van deze massa tegen een alsmaar duidelijker gepercipieerde onderdrukking kan enkel door zo’n massale hereniging beginnen te worden gearticuleerd.
+
+![bezetting place de la république](http://vektor.cc/img/Nuit_Debout/optocht.jpg)
 
 _“…Merci, Hollande, pour nous réveiller de notre sommeil politique. Tu nous a rappelé quelque chose que nous avions oublié déjà depuis trop longtemps: Le commun!”_
 
