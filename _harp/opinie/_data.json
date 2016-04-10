@@ -3,10 +3,22 @@
     "titel": "De Grote Parade: een doel of een middel? ",
     "ondertitel":"Enkele prangende vragen tegen een Hartinfarct",
     "auteur": "Arthur Sollie",
-    "datum": "5 april 2016",
+    "datum": "1 april 2016",
     "type": "opinie",
     "tags": "",
+    "language":"Nederlands",
     "abstract":"Na twee geslaagde Grote Parades en Hartslagen, een oprijzende vraag: Wat nu?",
     "url": "http://vektor.cc/opinie/de-grote-parade"
+  },
+  "la-grande-parade": {
+    "titel": "La grande parade un but ou un moyen?",
+    "ondertitel":"Quelques questions cruciales pour éviter une crise cardiaque",
+    "auteur": "Arthur Sollie",
+    "datum": "1 april 2016",
+    "type": "opinie",
+    "tags": "",
+    "language":"Français",
+    "abstract":"Après deux grandes parades tout à fait réussies, une question surgit : Que faire maintenant?",
+    "url": "http://vektor.cc/opinie/la-grande-parade"
   }
 }
